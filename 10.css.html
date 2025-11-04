@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>css</title>
+        <!-- 使用 link 標籤引入外部的樣式表-->
+        <link rel="stylesheet" href="https://rawcdn.githack.com/shhuangmust/html/fc0253b382011528e5bcc69e74425c6d03f1adc3/import.css">
+
+        <!-- 直接在 HTML 檔中撰寫樣式-->
+        <style>
+            h2 { color: green; }  /* 將所有 <h2> 標題設定為綠色 */
+        </style>
+    </head>
+
+    <body>
+        <!-- 直接在標籤內使用 style 屬性設定樣式，只影響這一個元素 -->
+        <h1 style="color:red;">
+            這是甚麼顏色 <!-- 字變紅色 -->
+        </h1>
+
+        <!-- h2 套用 internal CSS（綠色） -->
+        <h2>這是甚麼顏色</h2>
+
+        <!-- h3 套用 external CSS（外部檔案 import.css 內的設定） -->
+        <h3>這是甚麼顏色</h3>
+    </body>
+</html>

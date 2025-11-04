@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+        <style>
+            /* 
+               letter-spacing: 1.5em 代表文字之間拉寬一點1em ≈ 一個字的寬度。
+            */
+            #ls1 { letter-spacing: 1.5em; }
+
+            /* 
+               #ID選擇器，
+               letter-spacing: -5px 是讓字距變窄，
+               px 擠緊一點。
+            */
+            #ls2 { letter-spacing: -5px; }
+        </style>
+    </head>
+
+    <body>
+        <!-- 這是原始的字距 -->
+        <h1>這是正常的文字間距</h1>
+
+        <!-- id="ls1" → 套用上面那個 letter-spacing: 1.5em -->
+        <h1 id="ls1">這是較大的文字間距</h1>
+
+        <!-- id="ls2" → 套用 letter-spacing: -5px -->
+        <h1 id="ls2">這是較小的文字間距</h1>
+
+    </body>
+</html>
